@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="bundle.js"></script>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-sm-12">
+
+          <h1>Developing Assets Creation and Tracking</h1>
+
+
+    <!--    <form id="addColour">
+            <div class="form-group">
+              <label for="addDataInput">Enter an Asset</label>
+              <input id="addDataInput" type="NAME" class="form-control"></input>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          <div>Asset Tracing Details: <span id="data"></span></div> -->
+         <br><br><br>
+
+          <form id="addAsset">
+            <div class="form-group">
+              <label for="addDataInput">Enter Asset Details</label> <br>
+              Asset ID : <input id="assetId" type="text" class="form-control"></input>
+              TokenId : <input id="tokenId" type="text" class="form-control"></input>
+              Description : <input id="description" type="text" class="form-control"></input>
+              Manufacturer : <input id="manufacturer" type="text" class="form-control"></input>
+              Quantity : <input id="quantity" type="text" class="form-control"></input>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Asset</button>
+          </form>
+
+          <form id="viewState">
+            <button type="submit" class="btn btn-info">Trace Asset Creation</button>
+          </form>
+          <div>Tracing Details: <span id="view"></span></div>
+      </div>
+    </div>
+
+    <br><br><br>
+    
+      <div class="row">
+        <div class="col-sm-12">
+
+          <form id="transferAsset">
+            <div class="form-group">
+              <label for="addDataInput">Transfer Asset</label> <br>
+              Asset ID : <input id="assetId" type="text" class="form-control"></input>
+              Send From : <input id="sendFrom" type="text" class="form-control"></input>
+              Send To : <input id="sendTo" type="text" class="form-control"></input>
+            </div>
+            <button type="submit" class="btn btn-primary">Transfer Asset</button>
+          </form>
+          <br>
+
+          <form id="traceTransfer">
+            <button type="submit" class="btn btn-info">Trace Asset Transfer</button>
+          </form>
+          <div>Transfer Tracing Details: <span id="traceTransfer"></span></div>
+          
+
+
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>
